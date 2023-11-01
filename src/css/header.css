@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.logo-icon {
+  margin-right: 8px;
+}
+
+.logo-name {
+  color: var(--title-color);
+}
+
+.had-nav {
+  display: flex;
+}
+/* @media only screen (min-width: 768px) {
+  .nav {
+    display: none;
+  }
+} */
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 101px;
+}
+.had-nav-link {
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+}
+.had-home {
+  margin-right: 32px;
+}
+.had-shop {
+  margin-right: 4px;
+}
