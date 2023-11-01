@@ -1,0 +1,9 @@
+.container-support {
+  padding: 24 0 20 40;
+}
+.support-list {
+  list-style-type: decimal-leading-zero;
+}
+.support-img {
+  filter: grayscale(100%);
+}
