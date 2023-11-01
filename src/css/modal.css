@@ -1,0 +1,37 @@
+.modal {
+  min-width: 320px;
+}
+.icon-x-close {
+  stroke: #111111;
+}
+.books {
+}
+.books-name {
+}
+.name {
+}
+.description {
+}
+.information {
+  margin-bottom: 44px;
+  display: flex;
+  margin-left: 24px;
+  gap: 20px;
+}
+.amazon {
+  filter: grayscale(100%);
+}
+.img-book {
+  filter: grayscale(100%);
+}
+.hallo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-books {
+  width: 211px;
+  height: 46px;
+  border-radius: 40px;
+  border: 2px solid #4f2ee8;
+}
