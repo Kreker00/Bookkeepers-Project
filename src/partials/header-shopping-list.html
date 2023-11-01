@@ -1,0 +1,89 @@
+<div class="btn-up btn-up_hide"></div>
+<section class="header">
+  <div class="container header-container">
+    <div class="box-logo">
+      <a href="./index.html" class="logo">
+        <svg class="logo-icon" width="24" height="24">
+          <use href="./img/icons/symbol-defs.svg#icon-site-logo"></use>
+        </svg>
+        <span class="logo-name"><strong>Bookshelf</strong></span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="had-nav-link had-home"
+              ><strong>HOME</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./shopping-list.html" class="had-nav-link had-shop current"
+              ><strong>SHOPPING LIST</strong>
+              <svg class="shopping-icon" width="20" height="20">
+                <use href="./img/icons/symbol-defs.svg#icon-shopping"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="box-burger">
+      <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider" />
+        <span class="slider round"></span>
+      </label>
+
+      <label class="toggle-theme common-toggle">
+        <input
+          type="checkbox"
+          js-toggle
+          class="toggle__input"
+          aria-label="toggle dark mode"
+        />
+        <span class="check"></span>
+      </label>
+
+      <!-- 
+      <label class="header__selection toggle">
+        <input js-toggle class="toggle__input" aria-label="toggle dark mode" type="checkbox">
+        <span class="toggle__fake"></span>
+      </label> -->
+
+      <button id="openBurger" class="header-burger active">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./img/icons/symbol-defs.svg#icon-burger"></use>
+        </svg></button
+      ><button id="closeBurger" class="header-close">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./img/icons/symbol-defs.svg#icon-x-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+<div id="overlay" class="header-burger-menu overlay">
+  <div class="overlay-content">
+    <ul class="header-list">
+      <li>
+        <a href="./index.html" class="header-link"
+          ><strong class="burger-home-text">HOME</strong></a
+        >
+      </li>
+      <li>
+        <a href="./shopping-list.html" class="header-link current"
+          ><strong class="shoping-menu-text">SHOPPING LIST</strong>
+          <svg class="shopping-icon" width="20" height="20">
+            <use href="./img/icons/symbol-defs.svg#icon-shopping"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <img
+      class="burger-img"
+      srcset="./img/images/burger-1x.png 1x, ./img/images/burger-2x.png 2x"
+      src="./img/images/burger-1x.png"
+      alt="books"
+    />
+  </div>
+</div>
